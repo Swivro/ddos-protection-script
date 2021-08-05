@@ -39,3 +39,4 @@ apt install iptables
 /sbin/iptables -N port-scanning
 /sbin/iptables -A port-scanning -p tcp --tcp-flags SYN,ACK,FIN,RST RST -m limit --limit 1/s --limit-burst 2 -j RETURN
 /sbin/iptables -A port-scanning -j DROP
+service iptables restart
