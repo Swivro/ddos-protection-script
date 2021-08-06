@@ -1,7 +1,6 @@
 # DDoS Protection for Linux Machines
 
 
-## For CentOS/RHEL/AlmaLinux
 ```
 wget https://raw.githubusercontent.com/kasperireland/ddos-protection-script/main/script-rhel.sh
 chmod +x script-rhel.sh
