@@ -10,9 +10,7 @@ chmod +x script-rhel.sh
 
 ## For Ubuntu/Debian
 ```
-wget https://raw.githubusercontent.com/kasperireland/ddos-protection-script/main/script-ubuntu-debian.sh
-chmod +x script-ubuntu-debian.sh
-./script-ubuntu-debian.sh
+wget https://raw.githubusercontent.com/kasperireland/ddos-protection-script/main/script-ubuntu-debian.sh && chmod +x script-ubuntu-debian.sh && ./script-ubuntu-debian.sh
 ```
 
 
