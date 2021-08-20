@@ -3,7 +3,7 @@
 
 ## For CentOS/RHEL/AlmaLinux
 ```
-wget https://raw.githubusercontent.com/kasperireland/ddos-protection-script/main/script-ubuntu-debian.sh && chmod +x script-ubuntu-debian.sh && ./script-ubuntu-debian.sh
+wget https://raw.githubusercontent.com/kasperireland/ddos-protection-script/main/script-rhel.sh && chmod +x script-ubuntu-debian.sh && ./script-ubuntu-debian.sh
 ```
 
 ## For Ubuntu/Debian
