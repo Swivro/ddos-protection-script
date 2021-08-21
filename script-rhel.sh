@@ -36,4 +36,4 @@ dnf update
 /sbin/iptables -A INPUT -p tcp --dport ssh -m conntrack --ctstate NEW -m recent --set
 /sbin/iptables -A INPUT -p tcp --dport ssh -m conntrack --ctstate NEW -m recent --update --seconds 60 --hitcount 10 -j DROP
 
-echo "Firewall configuration successfully applied."
+echo "Firewall configuration successfully applied. If you would like to undo this config, edit the script and replace -A with -D."
