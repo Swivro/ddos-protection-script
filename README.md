@@ -1,5 +1,5 @@
 # DDoS Protection for Linux Machines
-WARNING!! This script does not work well with LXD Containers, please only use on KVM-Based VPS's or Bare Metal Servers.
+WARNING!! This script usually does not work properly with LXD/LXC Containers, please only use on KVM-Based VPS's or Bare Metal Servers.
 
 
 ## For CentOS/RHEL/AlmaLinux
