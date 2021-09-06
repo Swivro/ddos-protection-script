@@ -1,4 +1,6 @@
 apt update
+echo Packages Updated.
+sleep 1
 apt install iptables-persistent
 /sbin/iptables -t mangle -A PREROUTING -m conntrack --ctstate INVALID -j DROP
 /sbin/iptables -t mangle -A PREROUTING -p tcp --tcp-flags FIN,SYN,RST,PSH,ACK,URG NONE -j DROP
