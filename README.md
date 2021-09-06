@@ -4,12 +4,12 @@ WARNING! This script usually does not work properly with LXD/LXC Containers, ple
 
 ## For CentOS/RHEL/AlmaLinux
 ```
-wget https://raw.githubusercontent.com/Swivro/ddos-protection-script/main/script-rhel.sh && chmod +x script-rhel.sh && ./script-rhel.sh
+wget https://raw.githubusercontent.com/Swivro/ddos-protection-script/main/script-rhel.sh && chmod +x antiddos-rhel.sh && ./antiddos-rhel.sh
 ```
 
 ## For Ubuntu/Debian
 ```
-wget https://raw.githubusercontent.com/Swivro/ddos-protection-script/main/script-ubuntu-debian.sh && chmod +x script-ubuntu-debian.sh && ./script-ubuntu-debian.sh
+wget https://raw.githubusercontent.com/Swivro/ddos-protection-script/main/antiddos-debian.sh && chmod +x antiddos-debian.sh && ./antiddos-debian.sh
 ```
 
 
